@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
         rel="stylesheet">
 
     <!-- Style Css -->
@@ -33,57 +33,369 @@
     <main class="home">
         <!-- Begin Slider -->
         <section class="slider">
-            <div class="container">
-                <div class="slider-swiper">
-                    <!-- Swiper -->
-                    <div class="swiper sliderSwiper">
-                        <div class="swiper-wrapper">
-                            <!-- item -->
-                            <div class="swiper-slide">
-                                <div class="slider-swiper__item">
-                                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" />
-                                </div>
-                            </div>
+            <div class="slider-swiper">
+                <!-- Swiper -->
+                <div class="swiper sliderSwiper">
+                    <div class="swiper-wrapper">
+                        <!-- item -->
+                        <div class="swiper-slide">
+                            <a href="#" class="slider-swiper__item">
+                                <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" />
+                            </a>
+                        </div>
 
-                            <!-- item -->
-                            <div class="swiper-slide">
-                                <div class="slider-swiper__item">
-                                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
-                                </div>
-                            </div>
+                        <!-- item -->
+                        <div class="swiper-slide">
+                            <a href="#" class="slider-swiper__item">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
+                            </a>
+                        </div>
 
-                            <!-- item -->
-                            <div class="swiper-slide">
-                                <div class="slider-swiper__item">
-                                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="" />
-                                </div>
-                            </div>
+                        <!-- item -->
+                        <div class="swiper-slide">
+                            <a href="#" class="slider-swiper__item">
+                                <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="" />
+                            </a>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
                 </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
         <!-- End Slider -->
 
         <!-- Begin Banner -->
         <section class="banner">
             <div class="container">
-                <div class="banner-wrapper">
+                <a href="#" class="banner-cover" style="background-image: url(/assets/images/bg_wap.png);">
+                    <div class="banner-cover__desc">
+                        <h3 class="banner-cover__title">
+                            Gợi ý dành cho bạn
+                        </h3>
 
-                </div>
+                        <p class="banner-cover__text">
+                            Thưởng thức ngay những ca khúc phù hợp nhất với bạn
+                        </p>
+                    </div>
+
+                    <div class="banner-cover__icon">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </a>
             </div>
         </section>
         <!-- End Banner -->
+
+        <!-- Begin Playlist -->
+        <section class="playlist">
+            <div class="container">
+                <div class="playlist-cover">
+                    <a href="#" class="playlist-cover__title">
+                        Nghe gì hôm nay
+                    </a>
+
+                    <div class="playlist-cover__list">
+                        <!-- item -->
+                        <div class="playlist-cover__item special">
+                            <div class="playlist-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <div class="playlist-cover__text">
+                                <a href="#" class="playlist-cover__sub">
+                                    Nhạc Việt Không Lời
+                                </a>
+
+                                <p class="playlist-cover__single">
+                                    V.A
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item -->
+                        <div class="playlist-cover__item special">
+                            <div class="playlist-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <div class="playlist-cover__text">
+                                <a href="#" class="playlist-cover__sub">
+                                    Nhạc Việt Không Lời
+                                </a>
+
+                                <p class="playlist-cover__single">
+                                    V.A
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item -->
+                        <div class="playlist-cover__item special">
+                            <div class="playlist-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <div class="playlist-cover__text">
+                                <a href="#" class="playlist-cover__sub">
+                                    Nhạc Việt Không Lời
+                                </a>
+
+                                <p class="playlist-cover__single">
+                                    V.A
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Playlist -->
+
+        <!-- Begin Top -->
+        <section class="top">
+            <div class="container">
+                <div class="top-cover">
+                    <a href="#" class="playlist-cover__title special">
+                        Top 100
+                    </a>
+
+                    <div class="top-cover__list">
+                        <!-- item -->
+                        <div class="top-cover__item special">
+                            <div class="top-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <a href="#" class="top-cover__text">
+                                Top 100 Pop USUK Hay Nhất
+                            </a>
+                        </div>
+
+                        <!-- item -->
+                        <div class="top-cover__item special">
+                            <div class="top-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <a href="#" class="top-cover__text">
+                                Top 100 Pop USUK Hay Nhất
+                            </a>
+                        </div>
+
+                        <!-- item -->
+                        <div class="top-cover__item special">
+                            <div class="top-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <a href="#" class="top-cover__text">
+                                Top 100 Pop USUK Hay Nhất
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Top -->
+
+        <!-- Begin Playlist -->
+        <section class="playlist">
+            <div class="container">
+                <div class="playlist-cover special">
+                    <a href="#" class="playlist-cover__title special">
+                        Mới phát hành
+                    </a>
+
+                    <div class="playlist-cover__list special">
+                        <!-- item -->
+                        <div class="playlist-cover__item special">
+                            <div class="playlist-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <div class="playlist-cover__text">
+                                <a href="#" class="playlist-cover__sub">
+                                    Nhạc Việt Không Lời
+                                </a>
+
+                                <p class="playlist-cover__single">
+                                    V.A
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item -->
+                        <div class="playlist-cover__item special">
+                            <div class="playlist-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <div class="playlist-cover__text">
+                                <a href="#" class="playlist-cover__sub">
+                                    Nhạc Việt Không Lời
+                                </a>
+
+                                <p class="playlist-cover__single">
+                                    V.A
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item -->
+                        <div class="playlist-cover__item special">
+                            <div class="playlist-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <div class="playlist-cover__text">
+                                <a href="#" class="playlist-cover__sub">
+                                    Nhạc Việt Không Lời
+                                </a>
+
+                                <p class="playlist-cover__single">
+                                    V.A
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Playlist -->
+
+        <!-- Begin Top -->
+        <section class="top special">
+            <div class="container">
+                <div class="top-cover">
+                    <a href="#" class="playlist-cover__title special">
+                        Bài hát HOT
+                    </a>
+
+                    <div class="top-cover__list">
+                        <!-- item -->
+                        <div class="top-cover__item special">
+                            <div class="top-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <a href="#" class="top-cover__text">
+                                Top 100 Pop USUK Hay Nhất
+                            </a>
+                        </div>
+
+                        <!-- item -->
+                        <div class="top-cover__item special">
+                            <div class="top-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <a href="#" class="top-cover__text">
+                                Top 100 Pop USUK Hay Nhất
+                            </a>
+                        </div>
+
+                        <!-- item -->
+                        <div class="top-cover__item special">
+                            <div class="top-cover__img">
+                                <img src="./assets/images/bg_wap.png" alt="" />
+                            </div>
+
+                            <a href="#" class="top-cover__text">
+                                Top 100 Pop USUK Hay Nhất
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Top -->
+
+        <!-- Begin Topic -->
+        <section class="topic">
+            <div class="container">
+                <div class="topic-cover">
+                    <a href="#" class="playlist-cover__title special">
+                        Chủ đề
+                    </a>
+
+                    <div class="topic-cover__list">
+                        <!-- item -->
+                        <div class="topic-cover__item">
+                            <img src="./assets/images/bg_wap.png" alt="" />
+                        </div>
+
+                        <!-- item -->
+                        <div class="topic-cover__item">
+                            <img src="./assets/images/bg_wap.png" alt="" />
+                        </div>
+
+                        <!-- item -->
+                        <div class="topic-cover__item">
+                            <img src="./assets/images/bg_wap.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Topic -->
+
+        <div class="back-to-top">
+            <a href="#" class="back-to-top-icon">
+                <svg fill="#000000" width="18px" height="18px" viewBox="0 0 24 24" id="next" data-name="Flat Color"
+                    xmlns="http://www.w3.org/2000/svg" class="icon flat-color" transform="rotate(270)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path id="primary"
+                            d="M18.6,11.2l-12-9A1,1,0,0,0,5,3V21a1,1,0,0,0,.55.89,1,1,0,0,0,1-.09l12-9a1,1,0,0,0,0-1.6Z"
+                            style="fill: #fff;"></path>
+                    </g>
+                </svg>
+            </a>
+
+            <p class="back-to-top-text">Trở lại đầu trang</p>
+        </div>
     </main>
     <!-- End Content -->
 
     <!-- Begin Footer -->
     <footer class="footer">
-        <div class="container-xl">
-            <div class="footer-wrapper">
+        <div class="container">
+            <div class="footer-cover">
+                <div class="footer-cover__list">
+                    <a href="#" class="footer-cover__item special">
+                        <div class="footer-cover__icon">
+                            <img src="./assets/images/icon-desktop.png" alt="" />
+                        </div>
 
+                        <p class="footer-cover__text">Xem với phiên bản desktop</p>
+                    </a>
+
+                    <a href="#" class="footer-cover__item">
+                        <span class="footer-cover__sub">
+                            Chính Sách Bảo Mật
+                        </span>
+                    </a>
+
+                    <a href="#" class="footer-cover__item">
+                        <span class="footer-cover__sub">
+                            Chính sách SHTT
+                        </span>
+                    </a>
+
+                    <a href="#" class="footer-cover__item">
+                        <span class="footer-cover__sub">
+                            Thỏa Thuận Sử Dụng
+                        </span>
+                    </a>
+                </div>
             </div>
         </div>
+
+        <p class="footer-cover__copyright">
+            © 2023 copyright
+        </p>
     </footer>
     <!-- End Footer -->
 

@@ -1,0 +1,31 @@
+.signIn {
+    &-cover {
+        &__group {
+            position: relative;
+
+            .eye {
+                width: 24px;
+                height: 24px;
+
+                &-open.is-active {
+                    display: block !important;
+
+                    & + .eye-close {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &__icon {
+            position: absolute;
+            top: 50%;
+            right: 14px;
+            transform: translateY(-50%);
+        }
+
+        &__view {
+            position: relative;
+        }
+    }
+}

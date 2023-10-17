@@ -8,7 +8,7 @@ togglePassword.forEach((item) => {
 function handleTogglePass() {
   let inputType = "password";
   // const input = this.parentNode?.firstElementChild.nextElementSibling;
-  const input = this.parentNode?.querySelector(".account-form__view>input");
+  const input = this.parentNode?.querySelector(".signIn-cover__view>input");
   console.log(this.parentNode);
 
   if (this.matches(".eye-close")) {

@@ -1,0 +1,25 @@
+.slider {
+    &-swiper {
+        margin-bottom: 8px;
+
+        .swiper {
+            &-pagination {
+                position: relative;
+                margin-top: 12px;
+
+                &-bullet {
+                    width: 6px;
+                    height: 6px;
+
+                    &-active {
+                        background-color: #2caaec;
+                    }
+                }
+            }
+        }
+
+        &__item {
+            @include imgPT(65%);
+        }
+    }
+}
