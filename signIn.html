@@ -40,13 +40,14 @@
                     </h3>
 
                     <form action="" class="signIn-cover__form">
-                        <label for="" class="signIn-cover__group">
+                        <div class="signIn-cover__group">
                             <label for="" class="signIn-cover__label">
                                 Tên đăng nhập
                             </label>
 
                             <input type="text" name="" id="" class="form-control signIn-cover__input" />
-                        </label>
+                            <span class="signIn-cover__animation"></span>
+                        </div>
 
                         <div class="signIn-cover__group">
                             <label for="passNewInput" class="signIn-cover__label">
@@ -54,8 +55,8 @@
                             </label>
 
                             <div class="signIn-cover__view">
-                                <input type="password" class="form-control signIn-cover__input" id="passNewInput"
-                                    placeholder="Mật khẩu">
+                                <input type="password" class="form-control signIn-cover__input" id="passNewInput">
+                                <span class="signIn-cover__animation"></span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="signIn-cover__icon eye eye-open hide"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -70,12 +71,52 @@
                                 </svg>
                             </div>
                         </div>
+
+                        <div class="signIn-cover__desc">
+                            <div class="signIn-cover__remember">
+                                <input type="checkbox" name="" id="remember">
+                                <span class="signIn-cover__checkbox"></span>
+                                <label for="remember" class="signIn-cover__sub">
+                                    Ghi nhớ mật khẩu
+                                </label>
+                            </div>
+
+                            <p class="signIn-cover__sub">
+                                Quên mật khẩu
+                            </p>
+                        </div>
+
+                        <button type="submit" class="signIn-cover__btn">
+                            Đăng nhập
+                        </button>
                     </form>
+
+                    <div class="signIn-cover__choose">
+                        <span class="signIn-cover__line"></span>
+                        <span class="signIn-cover__sub special">Hoặc</span>
+                        <span class="signIn-cover__line"></span>
+                    </div>
+
+                    <div class="signIn-cover__other">
+                        <button type="button" class="signIn-cover__social">
+                            <img src="./assets/images/ic_fb.png" alt="" />
+                        </button>
+
+                        <button type="button" class="signIn-cover__social">
+                            <img src="./assets/images/ic_google.png" alt="" />
+                        </button>
+                    </div>
+
+                    <div class="signIn-cover__register">
+                        <span class="signIn-cover__sub special">Bạn chưa có tài khoản?</span>
+                        <a href="#" class="signIn-cover__link">Đăng ký ngay !</a>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- End SignIn -->
 
+        <!-- Back-to-top -->
         <div class="back-to-top">
             <a href="#" class="back-to-top-icon">
                 <svg fill="#000000" width="18px" height="18px" viewBox="0 0 24 24" id="next" data-name="Flat Color"
